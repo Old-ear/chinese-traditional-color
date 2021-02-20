@@ -1,0 +1,27 @@
+<div nz-row nzJustify="space-around" nzAlign="middle" style="height: 30px;">
+    <div nz-col nzSpan="4">
+        <p style="height: 10px;">col-4</p>
+    </div>
+    <div nz-col nzSpan="4">
+        <nz-select style="width: 100%;" nzShowSearch nzAllowClear nzPlaceHolder="Select a person"
+            [(ngModel)]="selectedValue">
+            <nz-option nzLabel="Jack" nzValue="jack"></nz-option>
+            <nz-option nzLabel="Lucy" nzValue="lucy"></nz-option>
+            <nz-option nzLabel="Tom" nzValue="tom"></nz-option>
+        </nz-select>
+    </div>
+</div>
+<div nz-row nzJustify="space-around" nzAlign="middle" style="height: calc(100% - 30px);">
+    <div nz-col nzSpan="4">
+        <p style="height: 10px;">col-4</p>
+    </div>
+    <div nz-col nzSpan="4">
+        <p style="height: 80px;">col-4</p>
+    </div>
+    <div nz-col nzSpan="4">
+        <p style="height: 180px;">col-4</p>
+    </div>
+    <div nz-col nzSpan="4">
+        <p style="height: 100%;">col-4</p>
+    </div>
+</div>

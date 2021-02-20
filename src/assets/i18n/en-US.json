@@ -1,0 +1,10 @@
+{
+    "public": {
+
+    },
+    "app": {
+        "switch-language": "中文",
+        "ltr": "Left To Right",
+        "rtl": "Right to Left"
+    }
+}
