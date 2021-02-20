@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 /**
  * 欢迎页组件
- * @author wks
+ * @author wks 
  */
 @Component({
     selector: 'app-welcome',
